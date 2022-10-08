@@ -14,5 +14,5 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Address {
     private String zipCode;
-    private String details;
+    private String address_description;
 }

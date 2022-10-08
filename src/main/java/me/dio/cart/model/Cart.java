@@ -28,6 +28,6 @@ public class Cart {
     private List<Item> item;
     private Double total;
     @Enumerated
-    private me.dio.cart.enumeration.PaymentMethods PaymentForms;
+    private me.dio.cart.enumeration.PaymentMethods paymentMethods;
     private boolean closed;
 }

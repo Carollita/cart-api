@@ -8,6 +8,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import me.dio.cart.enumeration.PaymentMethods;
 
 import java.util.List;
 
@@ -25,9 +26,9 @@ public class Cart {
     @JsonIgnore
     private Customer customer;
     @OneToMany(cascade = CascadeType.ALL)
-    private List<Item> item;
+    private List<Item> items;
     private Double total;
     @Enumerated
-    private me.dio.cart.enumeration.PaymentMethods paymentMethods;
+    private PaymentMethods paymentMethods;
     private boolean closed;
 }

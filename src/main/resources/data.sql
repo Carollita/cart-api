@@ -7,8 +7,10 @@ INSERT INTO customer (id, zip_code, address_description, name) VALUES
 
 INSERT INTO product (id, product_available, name, unit_price, restaurant_id) VALUES
 (1L, true, 'Bauru', 22.0, 1L),
-(2L, true, 'Creme de Pitaya', 8.0, 2L),
-(3L, true, 'Pote açaí 2 litros', 35.0, 2L);
+(2L, true, 'Refrigerante Lata', 5.0, 1L),
+(3L, true, 'Suco Natural', 8.0, 1L),
+(4L, true, 'Creme de Pitaya', 8.0, 2L),
+(5L, true, 'Pote açaí 2 litros', 35.0, 2L);
 
 INSERT INTO cart (id, payment_methods, closed, total, customer_id) VALUES
 (1L, 0, false, 0.0, 1L);

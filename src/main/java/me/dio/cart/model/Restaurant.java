@@ -1,12 +1,9 @@
 package me.dio.cart.model;
 
+import javax.persistence.*;
 import java.util.List;
 
-import javax.persistence.*;
-import javax.persistence.Id;
-
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -15,7 +12,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Builder
 @Data
-@Entity // an entity represents a table in a relational database
+@Entity
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 @NoArgsConstructor
 public class Restaurant {

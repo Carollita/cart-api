@@ -1,4 +1,4 @@
-package me.dio.cart.model;
+package me.dio.cart.resource.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -12,7 +12,8 @@ import javax.persistence.Embeddable;
 @Data
 @Embeddable
 @NoArgsConstructor
-public class Address {
-  private String zipCode;
-  private String address_description;
+public class DtoItem {
+    private Long productId;
+    private int quantity;
+    private Long cartId;
 }

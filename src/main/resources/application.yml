@@ -16,6 +16,11 @@ spring:
     show-sql: true
     defer-datasource-initialization: true
     database-platform: org.hibernate.dialect.H2Dialect
+  
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
 
 # http://localhost:8080/h2-console
 # http://localhost:8080/h2-console/login.jsp
+# http://localhost:8080/swagger-ui/

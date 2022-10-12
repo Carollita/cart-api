@@ -7,6 +7,9 @@ import me.dio.cart.resource.dto.DtoItem;
 import me.dio.cart.service.CartService;
 import org.springframework.web.bind.annotation.*;
 
+import io.swagger.annotations.Api;
+
+@Api(value = "/ifood-devweek/cart")
 @RestController
 @RequestMapping("/ifood-devweek/cart")
 @RequiredArgsConstructor

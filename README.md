@@ -1,4 +1,4 @@
-<img src="src/img/header.png" width="860px">
+<img src="src/img/header-option-01.png" width="860px">
 <h1>Cart Api 🛒</h1>
 <p>Shopping Cart Api to serve a delivery application developed in Ifood-Dev-Week promoted by Digital Innovation One.</p>
 <p align="center">
